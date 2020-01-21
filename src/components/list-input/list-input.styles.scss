@@ -1,0 +1,23 @@
+form {
+  text-align: center;
+}
+
+.form-submit-button {
+  background: #0066a2;
+
+  color: white;
+
+  border-style: outset;
+
+  border-color: #0066a2;
+
+  padding: 5px 10px;
+
+  font: bold 15px arial, sans-serif;
+
+  text-shadow: none;
+
+  &:hover {
+    background-color: darken($color: #0066a2, $amount: 10%);
+  }
+}
